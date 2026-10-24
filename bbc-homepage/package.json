@@ -1,0 +1,18 @@
+{
+  "name": "bbc-homepage-sr-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test bbc.test.js"
+  },
+  "author": "Craig Morten",
+  "license": "MIT",
+  "dependencies": {
+    "@guidepup/guidepup": "^0.36.4",
+    "@guidepup/playwright": "^0.20.0",
+    "@guidepup/record": "^0.3.0",
+    "@playwright/test": "^1.64.1"
+  },
+  "allowScripts": {
+    "ffmpeg-static@5.3.0": true
+  }
+}
